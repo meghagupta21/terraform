@@ -20,6 +20,6 @@ resource "aws_instance" "myec2" {
     instance_type = "t3.micro"
     subnet_id     = aws_subnet.subnet.id
     tags = {
-        Name = "my-ec2-instance"
+        Name = "my-ec2"
     }
 }
