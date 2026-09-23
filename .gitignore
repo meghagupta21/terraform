@@ -1,16 +1,21 @@
-# Local .terraform directories
-**/.terraform/*
+# Ignore Terraform working directories
+**/.terraform/
+**/.terraform/**
 
-# Terraform state files
-*.tfstate
-*.tfstate.*
+# Ignore Terraform state and backup files
+**/*.tfstate
+**/*.tfstate.*
 
-# Terraform lock file
-.terraform.lock.hcl
-# documents
+# Ignore Terraform lock files
+**/.terraform.lock.hcl
+
+# Ignore downloaded provider binaries and local plugin caches
+**/providers/**
+**/*.exe
+
+# Ignore document files
 *.doc
-# Terraform
-.terraform/
-*.tfstate
-*.tfstate.*
-.terraform.lock.hcl
+
+# Ignore local editor/system files if needed
+.DS_Store
+Thumbs.db
