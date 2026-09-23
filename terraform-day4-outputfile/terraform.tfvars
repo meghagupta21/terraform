@@ -1,0 +1,5 @@
+ami="ami-0b2c9d1f3edcfd709"
+instance_type = "t3.micro"
+tags="ec2-instance"
+vpc_cidr="10.0.0.0/16"
+vpc_name="my-vpc"
